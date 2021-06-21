@@ -1,6 +1,3 @@
-// Faça o exercício da equação de GRAVITAÇÃO UNIVERSAL aqui
-// Este arquivo AINDA NÃO ESTÁ INCLUÍDO no arquivo HTML
-
 const botaoCalcularFGravidadeEl = document.querySelector('#calcular');
 const constanteEl = document.querySelector('#constante');
 const massa1El = document.querySelector('#massa1');
