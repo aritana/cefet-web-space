@@ -17,5 +17,5 @@ function calcularFGravidade() {
     const M2 = massa2El.value;
     const d = distanciaEl.value;
     const forcaGravitacional = G * M1 * M2 / d ** 2;
-    resultadoEl.value = forcaGravitacional;
+    resultadoEl.value = forcaGravitacional.toExponential(2);
 }
